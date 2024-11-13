@@ -1,0 +1,23 @@
+{
+  "name": "cypress-bdd-signup-test",
+  "version": "2.0.0",
+  "description": "Cypress Test for Signup and Signin Functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/MayurCodeCraft/Cypress-BDD-SIGNUP-TEST.git)"
+  },
+  "author": "Mayur",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": { 
+    "nonGlobalStepDefinitions": true,
+     "step_definitions": "cypress/e2e/" 
+  }
+}
